@@ -26,7 +26,7 @@ También se puede pasar de un teléfono a otro con WhatsApp, Bluetooth o una mem
 
 - **Es una versión de prueba.** La app ayuda, pero puede equivocarse: aprendió sobre todo con fotos públicas y todavía pocas de Teabo. Ante una duda seria, pregunte a alguien que sepa.
 - **El texto en maya es un borrador** y falta que lo revise una persona hablante de Teabo.
-- Todavía **no tiene audios**: las bocinas aparecen apagadas.
+- Los audios en maya son de una voz artificial (MMS de Meta) y pueden sonar distinto al maya de Teabo.
 - Sólo para teléfonos Android. Para iPhone todavía no hay forma de instalarla.
 
 ## 🙏 Créditos
@@ -40,5 +40,7 @@ El modelo se entrenó y las fotos de referencia provienen de:
 - Observaciones de [iNaturalist](https://www.inaturalist.org) con licencia CC0, CC BY o CC BY-SA; la lista completa, con autor y licencia de cada foto, está en [creditos_inaturalist.csv](creditos_inaturalist.csv).
 - Fotos de mancha negra del USDA APHIS (dominio público), por ejemplo [esta en Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Citrus_Black_Spot_(20191206-APHIS-CHRP-0032).jpg); lista en [creditos_mancha_negra_usda.csv](creditos_mancha_negra_usda.csv) y [creditos_mancha_negra_inaturalist.csv](creditos_mancha_negra_inaturalist.csv).
 - Fotos de referencia: [creditos_fotos_referencia.csv](creditos_fotos_referencia.csv). Fotos de campo de Teabo: AJKOOL.
+
+- Voz en maya: MMS-TTS de Meta para maya yucateco, [facebook/mms-tts-yua](https://huggingface.co/facebook/mms-tts-yua) (CC BY-NC 4.0). Pratap, V. et al. *Scaling Speech Technology to 1,000+ Languages*, 2023.
 
 Las fotos se recortaron y redujeron para entrenar. Sus autores no respaldan esta aplicación.
